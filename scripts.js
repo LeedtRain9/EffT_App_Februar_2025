@@ -4,7 +4,7 @@ const questions = {
     { question: "Für welche Spannungsarten gelten die Abkürzungen AC und DC?", answers: ["Wechselspannung", "Dreieckspannung", "Gleichspannung", "Rechteckspannung"], correct: [0, 2] },
     { question: "Wie lautet die Einheit des elektrischen Widerstandes R?", answers: ["Watt", "Ampere", "Volt", "Ohm"], correct: 3 },
     { question: "In welcher Einheit wird die elektrische Leistung P angegeben?", answers: ["VA", "Ws", "W", "var"], correct: 2 },
-    { question: "Welche Formeln geben das Ohmsche Gesetz wieder?", answers: ["R = I / U", "U = R / I", "U = R * I", "I = U / R"], correct: [1, 2] },
+    { question: "Welche Formeln geben das Ohmsche Gesetz wieder?", answers: ["R = I / U", "U = R / I", "U = R * I", "I = U / R"], correct: [2, 3] },
     { question: "Was passiert, wenn mehrere Widerstände in Reihe geschaltet werden?", answers: ["Der Gesamtwiderstand sinkt", "Bei konstanter Spannung U sinkt der Strom I", "Der Gesamtwiderstand ändert sich nicht", "Bei konstanter Spannung U steigt der Strom I"], correct: 1 },
     { question: "Welche Größe ist die gemeinsame Größe in einer Parallelschaltung?", answers: ["Spannung U", "Strom I", "Arbeit W", "Leistung P"], correct: 0 },
     { question: "Was passiert, wenn mehrere Widerstände parallel geschaltet werden?", answers: ["Der Gesamtwiderstand steigt", "Bei konstanter Spannung U sinkt der Strom I", "Der Gesamtwiderstand ändert sich nicht", "Bei konstanter Spannung U steigt der Strom I"], correct: 3 },
