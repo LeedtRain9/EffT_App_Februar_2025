@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #005b96;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+}
+
+footer {
+    background-color: #005b96;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.category-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.category-btn {
+    background-color: #005b96;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    min-width: calc(50% - 10px);
+}
+
+.category-btn:nth-child(2n) {
+    margin-right: 0;
+}
+
+.questions-area {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-number {
+    font-size: 0.9em; /* Kleinere Schriftgröße */
+    font-weight: normal; /* Keine Fettschrift */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.answers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.answers-container button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.feedback {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.feedback.correct {
+    color: green;
+}
+
+.feedback.wrong {
+    color: red;
+}
+
+h3 {
+    text-align: center;
+}
+
+.next-btn {
+    margin: 20px 0;
+}
+
+.new-quiz-btn, .restart-btn {
+    background-color: #005b96;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.answers-container button.selected {
+    background-color: #4caf50;
+}
+
+.answers-container button.wrong {
+    background-color: #f44336;
+}
+
+#question-container .question-number {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
