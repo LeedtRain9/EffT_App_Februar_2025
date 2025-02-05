@@ -1,3 +1,4 @@
+/* Ihr bisheriger CSS-Code */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,13 +36,13 @@ footer {
 }
 
 .category-btn {
-    background-color: #005b96;
+    background-color: #006ab0;
     color: white;
     border: none;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
     flex: 1;
     min-width: calc(50% - 10px);
 }
@@ -99,6 +100,12 @@ h3 {
 
 .next-btn {
     margin: 20px 0;
+    background-color: #fa9943; /* Änderung der Farbe */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
 }
 
 .new-quiz-btn, .restart-btn {
@@ -108,7 +115,7 @@ h3 {
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
 }
 
@@ -123,4 +130,31 @@ h3 {
 #question-container .question-number {
     font-size: 0.9em;
     margin-top: 10px;
+}
+
+/* Hinzufügen der Media Queries */
+@media (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .category-container {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .category-btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .questions-area {
+        padding: 0;
+        width: 100%;
+    }
+
+    .answers-container button {
+        max-width: 100%;
+    }
 }
